@@ -1,0 +1,48 @@
+<script>
+let angka = [1, 46, 75, 12, 89, 54, 101];
+let ganjil = [];
+let genap = [];
+
+// Tulis kode kalian di bawah ini
+// for .. of loop ganjil
+for (i of angka) {
+    if (i % 2 !== 0) {
+        ganjil.push(i)
+    }
+}
+// for .. loop ganjil
+for (i = 0; i < angka.length; i++) {
+    if (angka[i] % 2 !== 0) {
+        ganjil.push(angka[i])
+    }
+}
+// for .. of loop genap
+for (i of angka) {
+    if (i % 2 === 0) {
+        genap.push(i)
+    }
+}
+// for .. loop genap
+for (i = 0; i < angka.length; i++) {
+    if (angka[i] % 2 === 0) {
+        genap.push(angka[i])
+    }
+}
+// while .. loop dengan urutan desc
+let angkaa = [];
+let i = 5;
+// Tulis kode kalian di bawah ini
+while (i >= 0) {
+    angkaa.push(i);
+    i--;
+}
+// do .. while loop
+let angkaaa = [];
+let l = 5;
+
+// Ubah kode loop di bawah ini
+do {
+  angka.push(l);
+  l++;
+} while (l <= 10);
+</script>
